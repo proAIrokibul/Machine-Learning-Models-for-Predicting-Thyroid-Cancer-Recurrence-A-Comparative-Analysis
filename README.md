@@ -33,18 +33,6 @@ This project classifies thyroid disease based on health-related attributes using
    - Similar pattern: high precision for the positive class, low for the negative class.
    - **Precision**: 0.92 for `P`, 0.00 for `N`
 
-## Insights
-- All models performed well for the positive class (`P`) but struggled with the negative class (`N`), indicating class imbalance.
-- **Class Imbalance**: The poor predictions for the negative class suggest further steps are needed to handle imbalance.
-
-## Next Steps
-- Implement **SMOTE** or **adjust class weights** to address class imbalance.
-- Tune model hyperparameters using **GridSearchCV** or **RandomizedSearchCV**.
-- Explore ensemble methods like **Voting Classifiers** for improved performance.
-
-## Visualizations
-- **Accuracy Comparison**: Bar charts for model accuracy.
-- **Precision-Recall Curves** and **Confusion Matrices** to evaluate model performance on imbalanced data.
 
 ## Conclusion
 This project demonstrates the application of machine learning for thyroid disease classification. Future work includes handling class imbalance and optimizing models for better overall performance.
